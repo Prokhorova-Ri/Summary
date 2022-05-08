@@ -1,0 +1,138 @@
+body {
+  background-color: #b1c4c9;
+  color: #1b1919;
+  font-size: 18px;  
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #134423;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: #167bb5;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p { 
+  color: #162c13;
+  margin: 0;
+  font-style: italic;
+  word-spacing: 4px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #c2d4dc;
+
+}
+
+.list {
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group lable {
+  display: block;
+  font-size: 14px;
+  color: #134423;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #ccc;
+  color: #000000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.connection {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #c2d4dc;
+  text-align: left;  
+}
+
+.btn {
+  background: #b1c4c9;
+  color: #000000;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 15px 20px ;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
