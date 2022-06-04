@@ -59,6 +59,10 @@ a:active {
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+.content-hidden {
+  display: none;
+}
+
 .card {
   padding: 15px 20px;
   margin-bottom: 20px;
